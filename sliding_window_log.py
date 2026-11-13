@@ -12,7 +12,7 @@ app = FastAPI(title="Sliding Window Log Rate Limiter API")
 
 
 # Configuration
-WINDOW_SIZE = 60  # Time window in seconds
+WINDOW_SIZE = 60  # Time window in seconds (according to proposal)
 MAX_REQUESTS = 5  # Maximum requests allowed in the window
 
 
